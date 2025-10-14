@@ -1,0 +1,9 @@
+<svg 
+    height="100%" 
+    version="1.1" 
+    viewBox="0 0 36 36" 
+    width="100%"
+    style="transform: scale(0.70); transform-origin: center;"
+>
+    <path fill="#fff" d="M25,17 L17,17 L17,25 L25,25 L25,17 L25,17 Z M29,29 L7,29 L7,7 L29,7 L29,29 Z M27,9 L9,9 L9,27 L27,27 L27,9 L27,9 Z"></path>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Miniplayer Button",
+  "version": "1.0",
+  "description": "Thêm lại nút Trình phát thu nhỏ (Miniplayer) vào thanh điều khiển video YouTube.",
+  "icons": {
+    "16": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
