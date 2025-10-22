@@ -25,7 +25,8 @@ function addMiniPlayerButton() {
     newButton.setAttribute('data-tooltip-title',  'Trình phát thu nhỏ (i)');
     newButton.setAttribute('aria-label',  'Trình phát thu nhỏ (i)');
     newButton.setAttribute('data-title-no-tooltip',  'Trình phát thu nhỏ (i)');
-    newButton.setAttribute('data-priority', 13)
+    newButton.setAttribute('data-priority', 13);
+    newButton.setAttribute('style', 'display: flex; justify-content: center; align-items: center');
 
     newButton.innerHTML = `
        <svg height="36" version="1.1" viewBox="0 0 36 36" width="36" style="width: 48px; height: 40px; padding: 0;"">
